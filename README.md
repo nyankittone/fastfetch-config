@@ -1,3 +1,5 @@
+![Screenshot of the fastfetch](https://i.imgur.com/Kir9vvY.png)
+
 # What is this?
 This is a config file for the [fastfetch](https://github.com/fastfetch-cli/fastfetch) program.
 I actually really like this config I made; I think it's really pretty :333 Hopefully you enjoy it
