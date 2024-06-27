@@ -6,8 +6,9 @@ I actually really like this config I made; I think it's really pretty :333 Hopef
 too!
 
 # Installation instructions
-+ `git clone` into your fastfetch config directory (usually `~/.config/fastfetch`)
-+ `cd` into the cloned directory
++ `cd` to your XDG config directory (If you don't know, it's probably `~/.config`)
++ run `git clone https://github.com/nyankittone/fastfetch-config fastfetch` to download the config
++ `cd` into the new directory
 + run the `install.sh` script (type `./install.sh`) to set up the cat ASCII art
 + If all went well, you should be good to go! :3
 
