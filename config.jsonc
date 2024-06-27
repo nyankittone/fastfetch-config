@@ -1,0 +1,95 @@
+// I may want to increase the brightness of the gray color I have set. Maybe.
+{
+  "$schema": "https://github.com/fastfetch-cli/fastfetch/raw/dev/doc/json_schema.json",
+  "logo": {
+    "source": "cat1", // TODO: add more colors for the different cats in the ascii art!
+    "color": {
+      "1": "1;38;2;236;180;255"
+    }
+  },
+  "modules": [
+    {
+      "type": "title",
+      "color": {
+          "user": "3;38;2;245;169;184",
+          "at": "1;97",
+          "host": "3;38;2;91;206;250"
+      }
+    },
+    {
+      "type": "separator",
+      "outputColor": "1;38;2;194;148;255"
+    },
+    {
+      "type": "uptime",
+      "keyColor": "3;38;2;91;206;250",
+      "outputColor": "38;2;141;130;170"
+    },
+    {
+      "type": "packages",
+      "keyColor": "3;38;2;245;169;184",
+      "outputColor": "38;2;141;130;170"
+    },
+    {
+      "type": "cpuusage",
+      "keyColor": "3;97",
+      "outputColor": "38;2;141;130;170"
+    },
+    {
+      "type": "loadavg",
+      "key": "Load Average",
+      "keyColor": "3;38;2;245;169;184",
+      "outputColor": "38;2;141;130;170"
+    },
+    {
+      "type": "processes",
+      "keyColor": "3;38;2;91;206;250",
+      "outputColor": "38;2;141;130;170"
+    },
+    {
+      "type": "memory",
+      "keyColor": "3;38;2;245;169;184",
+      "outputColor": "38;2;141;130;170"
+    },
+    {
+      "type": "swap",
+      "keyColor": "3;97",
+      "outputColor": "38;2;141;130;170"
+    },
+    {
+      "type": "disk",
+      "keyColor": "3;38;2;245;169;184",
+      "folders": "/",
+      "outputColor": "38;2;141;130;170"
+    },
+    {
+      "type": "disk",
+      "keyColor": "3;38;2;91;206;250",
+      "folders": "/mnt/HDD",
+      "outputColor": "38;2;141;130;170"
+    },
+    {
+      "type": "wifi",
+      "keyColor": "3;38;2;245;169;184",
+      "outputColor": "38;2;141;130;170"
+    },
+    {
+      "type": "media",
+      "key": "Playing",
+      "keyColor": "3;97",
+      "outputColor": "38;2;141;130;170"
+    },
+    {
+      "type": "terminalsize",
+      "keyColor": "3;38;2;245;169;184",
+      "outputColor": "38;2;141;130;170"
+    },
+    {
+      "type": "datetime",
+      "key": "Current Time",
+      "keyColor": "3;38;2;91;206;250",
+      "outputColor": "38;2;141;130;170"
+    },
+    "break"
+  ]
+}
