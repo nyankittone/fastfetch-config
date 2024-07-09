@@ -63,9 +63,8 @@
       "outputColor": "38;2;141;130;170"
     },
     {
-      "type": "disk",
+      "type": "battery",
       "keyColor": "3;38;2;91;206;250",
-      "folders": "/mnt/HDD",
       "outputColor": "38;2;141;130;170"
     },
     {
